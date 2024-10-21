@@ -17,10 +17,10 @@ router = APIRouter(
 @router.post(
     '/registration',
     response_model=UserSchema,
-    description="Регистрирует нового пользователя.",
+    description="Registers a new user.",
     responses={
-        201: {"description": "Пользователь успешно зарегистрирован."},
-        400: {"description": "Некорректные данные или пользователь уже существует."},
+        201: {"description": "User successfully registered."},
+        400: {"description": "Invalid data or user already exists."},
     }
 )
 async def add_user(user: UserCreateSchema, session=Depends(get_session)):
@@ -30,10 +30,10 @@ async def add_user(user: UserCreateSchema, session=Depends(get_session)):
 @router.post(
     '/token',
     response_model=TokenPairSchema,
-    description="Получение пары токенов по логину и паролю.",
+    description="Obtains a pair of tokens using login and password.",
     responses={
-        200: {"description": "Токены успешно сгенерированы."},
-        400: {"description": "Неверные учетные данные пользователя."},
+        200: {"description": "Tokens generated successfully."},
+        400: {"description": "Invalid user credentials."},
     }
 )
 async def get_token_pair(user_data: UserCredentialSchema, session=Depends(get_session)):
@@ -45,10 +45,10 @@ async def get_token_pair(user_data: UserCredentialSchema, session=Depends(get_se
 @router.post(
     '/token/refresh',
     response_model=AccessTokenSchema,
-    description="Обновляет access токен с использованием refresh токена.",
+    description="Refreshes the access token using a refresh token.",
     responses={
-        200: {"description": "Токен успешно обновлен."},
-        401: {"description": "Некорректный refresh токен."},
+        200: {"description": "Token refreshed successfully."},
+        401: {"description": "Invalid refresh token."},
     }
 )
 async def refresh_token(token: RefreshTokenSchema):
