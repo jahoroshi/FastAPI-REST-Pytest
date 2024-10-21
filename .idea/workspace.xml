@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e4a7ef9-1e2c-4ddd-867d-db5d62a2159a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/08353106-994c-4e8f-8b7d-f1170ac08c62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/dataSources/08353106-994c-4e8f-8b7d-f1170ac08c62/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/projectJobServiceFastAPI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/schemas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/services/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/services/management.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/auth/services/repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/candidates/router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/candidates/schemas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/candidates/services/profile_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/candidates/services/skill_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/jobs/router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/jobs/schemas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/jobs/services/job_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/jobs/services/requirement_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/matching/router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/matching/schemas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/matching/services/matching_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/recruiters/router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/recruiters/schemas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/recruiters/services/profile_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tools/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tools/profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/candidates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/candidates/test_add_skill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/candidates/test_del_skill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/candidates/test_delete_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/candidates/test_get_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/candidates/test_upd_candidate_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/candidates/test_upd_skill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/test_add_requirement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/test_create_job.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/test_del_job.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/test_del_requirement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/test_get_job.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/test_get_job_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/test_upd_job.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/jobs/test_upd_requirement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/matching/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/matching/test_find_candidates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/recruiters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/recruiters/test_del_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/recruiters/test_get_req_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tests/recruiters/test_upd_profile.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2nbeGeCuoLcd3yEyt431GqI6EXT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "FastAPI.Start app.executor": "Run",
+    "Python tests.Python tests for add_requirement.test_add_requirement_invalid_data.executor": "Run",
+    "Python tests.Python tests for add_requirement.test_add_requirement_invalid_level.executor": "Run",
+    "Python tests.Python tests for add_requirement.test_add_requirement_not_found.executor": "Run",
+    "Python tests.Python tests for add_requirement.test_add_requirement_success.executor": "Run",
+    "Python tests.Python tests for add_requirement.test_add_requirement_unauthorized.executor": "Run",
+    "Python tests.Python tests for add_skill.test_add_candidate_skill_invalid_data.executor": "Run",
+    "Python tests.Python tests for add_skill.test_add_candidate_skill_success.executor": "Run",
+    "Python tests.Python tests for add_skill.test_add_candidate_skill_unauthorized.executor": "Run",
+    "Python tests.Python tests for async_tests.test_auth.executor": "Run",
+    "Python tests.Python tests for candidates.test_auth.executor": "Run",
+    "Python tests.Python tests for candidates.test_get_candidate_profile.executor": "Run",
+    "Python tests.Python tests for candidates.test_update_candidate_profile_invalid_data.executor": "Run",
+    "Python tests.Python tests for candidates.test_update_candidate_profile_success.executor": "Run",
+    "Python tests.Python tests for candidates.test_update_candidate_profile_unauthorized.executor": "Run",
+    "Python tests.Python tests for create_job.test_create_job_invalid_level.executor": "Run",
+    "Python tests.Python tests for create_job.test_create_job_missing_fields.executor": "Run",
+    "Python tests.Python tests for create_job.test_create_job_partial_requirements.executor": "Run",
+    "Python tests.Python tests for create_job.test_create_job_success.executor": "Run",
+    "Python tests.Python tests for create_job.test_create_job_unauthorized.executor": "Run",
+    "Python tests.Python tests for create_job.test_create_job_without_requirements.executor": "Run",
+    "Python tests.Python tests for del_job.test_delete_job_not_found.executor": "Run",
+    "Python tests.Python tests for del_job.test_delete_job_success.executor": "Run",
+    "Python tests.Python tests for del_job.test_delete_job_unauthorized.executor": "Run",
+    "Python tests.Python tests for del_profile.test_delete_recruiter_profile_not_found.executor": "Run",
+    "Python tests.Python tests for del_profile.test_delete_recruiter_profile_success.executor": "Run",
+    "Python tests.Python tests for del_profile.test_delete_recruiter_profile_unauthorized.executor": "Run",
+    "Python tests.Python tests for del_requirement.test_delete_requirement_not_found.executor": "Run",
+    "Python tests.Python tests for del_requirement.test_delete_requirement_success.executor": "Run",
+    "Python tests.Python tests for del_requirement.test_delete_requirement_unauthorized.executor": "Run",
+    "Python tests.Python tests for del_skill.test_delete_candidate_skill_not_found.executor": "Run",
+    "Python tests.Python tests for del_skill.test_delete_candidate_skill_success.executor": "Run",
+    "Python tests.Python tests for del_skill.test_delete_candidate_skill_unauthorized.executor": "Run",
+    "Python tests.Python tests for delete_profile.test_delete_candidate_profile_not_found.executor": "Run",
+    "Python tests.Python tests for delete_profile.test_delete_candidate_profile_success.executor": "Run",
+    "Python tests.Python tests for delete_profile.test_delete_candidate_profile_unauthorized.executor": "Run",
+    "Python tests.Python tests for find_candidates.test_get_matching_candidates.executor": "Run",
+    "Python tests.Python tests for get_job.test_get_job_not_found.executor": "Run",
+    "Python tests.Python tests for get_job.test_get_job_success.executor": "Run",
+    "Python tests.Python tests for get_job.test_get_job_unauthorized.executor": "Run",
+    "Python tests.Python tests for get_job_list.test_get_job_list_success.executor": "Run",
+    "Python tests.Python tests for get_job_list.test_get_job_list_unauthorized.executor": "Run",
+    "Python tests.Python tests for get_req_profile.test_get_recruiter_profile_not_found.executor": "Run",
+    "Python tests.Python tests for get_req_profile.test_get_recruiter_profile_success.executor": "Run",
+    "Python tests.Python tests for get_req_profile.test_get_recruiter_profile_unauthorized.executor": "Run",
+    "Python tests.Python tests for test_add_skill.test_add_candidate_skill_invalid_data.executor": "Run",
+    "Python tests.Python tests for test_add_skill.test_add_candidate_skill_success.executor": "Run",
+    "Python tests.Python tests for test_add_skill.test_add_candidate_skill_unauthorized.executor": "Run",
+    "Python tests.Python tests for test_misc.test_get_candidate_profile_success.executor": "Run",
+    "Python tests.Python tests for test_misc.test_get_candidate_profile_unauthorized.executor": "Run",
+    "Python tests.Python tests for upd_job.test_update_job_invalid_data.executor": "Run",
+    "Python tests.Python tests for upd_job.test_update_job_not_found.executor": "Run",
+    "Python tests.Python tests for upd_job.test_update_job_part_data.executor": "Run",
+    "Python tests.Python tests for upd_job.test_update_job_partial_update.executor": "Run",
+    "Python tests.Python tests for upd_job.test_update_job_success.executor": "Run",
+    "Python tests.Python tests for upd_job.test_update_job_unauthorized.executor": "Run",
+    "Python tests.Python tests for upd_profile.test_update_recruiter_profile_invalid_email.executor": "Run",
+    "Python tests.Python tests for upd_profile.test_update_recruiter_profile_missing_fields.executor": "Run",
+    "Python tests.Python tests for upd_profile.test_update_recruiter_profile_partial_update.executor": "Run",
+    "Python tests.Python tests for upd_profile.test_update_recruiter_profile_success.executor": "Run",
+    "Python tests.Python tests for upd_profile.test_update_recruiter_profile_unauthorized.executor": "Run",
+    "Python tests.Python tests for upd_requirement.test_update_requirement_invalid_data.executor": "Run",
+    "Python tests.Python tests for upd_requirement.test_update_requirement_invalid_level.executor": "Run",
+    "Python tests.Python tests for upd_requirement.test_update_requirement_not_found.executor": "Run",
+    "Python tests.Python tests for upd_requirement.test_update_requirement_success.executor": "Run",
+    "Python tests.Python tests for upd_requirement.test_update_requirement_unauthorized.executor": "Run",
+    "Python tests.Python tests for upd_skill.test_update_candidate_skill_duplicate_name.executor": "Run",
+    "Python tests.Python tests for upd_skill.test_update_candidate_skill_future_last_used_year.executor": "Run",
+    "Python tests.Python tests for upd_skill.test_update_candidate_skill_invalid_level.executor": "Run",
+    "Python tests.Python tests for upd_skill.test_update_candidate_skill_invalid_years_of_experience.executor": "Run",
+    "Python tests.Python tests for upd_skill.test_update_candidate_skill_not_found.executor": "Run",
+    "Python tests.Python tests for upd_skill.test_update_candidate_skill_partial_update.executor": "Run",
+    "Python tests.Python tests for upd_skill.test_update_candidate_skill_success.executor": "Run",
+    "Python tests.Python tests for upd_skill.test_update_candidate_skill_unauthorized.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "/home/jahoroshi4y/Документы/Courses/projectJobServiceFastAPI/src/recruiters",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/recruiters" />
+      <recent name="$PROJECT_DIR$/src/matching" />
+      <recent name="$PROJECT_DIR$/src/jobs" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/recruiters" />
+      <recent name="$PROJECT_DIR$/tests/candidates" />
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="FastAPI.Start app">
+    <configuration name="Start app" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="projectJobServiceFastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.12 (projectJobServiceFastAPI)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_add_skill.test_add_candidate_skill_invalid_data" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectJobServiceFastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/candidates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_skill.test_add_candidate_skill_invalid_data&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_add_skill.test_add_candidate_skill_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectJobServiceFastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/candidates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_skill.test_add_candidate_skill_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_add_skill.test_add_candidate_skill_unauthorized" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectJobServiceFastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/candidates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_add_skill.test_add_candidate_skill_unauthorized&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.candidates.upd_candidate_profile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectJobServiceFastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.candidates.upd_candidate_profile&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.jobs.test_add_requirement.test_add_requirement_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectJobServiceFastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/jobs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.jobs.test_add_requirement.test_add_requirement_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.matching.test_find_candidates.test_get_matching_candidates" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projectJobServiceFastAPI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/matching" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.matching.test_find_candidates.test_get_matching_candidates&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_add_skill.test_add_candidate_skill_invalid_data" />
+        <item itemvalue="Python tests.Python tests for test_add_skill.test_add_candidate_skill_unauthorized" />
+        <item itemvalue="Python tests.Python tests for test_add_skill.test_add_candidate_skill_success" />
+        <item itemvalue="Python tests.Python tests for tests.matching.test_find_candidates.test_get_matching_candidates" />
+        <item itemvalue="Python tests.Python tests for tests.jobs.test_add_requirement.test_add_requirement_success" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e4a7ef9-1e2c-4ddd-867d-db5d62a2159a" name="Changes" comment="" />
+      <created>1729246132591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729246132591</updated>
+      <workItem from="1729246141832" duration="28170000" />
+      <workItem from="1729279400140" duration="27344000" />
+      <workItem from="1729355369996" duration="1316000" />
+      <workItem from="1729356711495" duration="4071000" />
+      <workItem from="1729361306225" duration="8603000" />
+      <workItem from="1729441621315" duration="2634000" />
+      <workItem from="1729449321545" duration="15062000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/candidates/test_upd_candidate_profile.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/candidates/test_upd_candidate_profile.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/candidates/test_delete_profile.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/jobs/test_upd_job.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/jobs/test_add_requirement.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/jobs/services/job_service.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/candidates/services/skill_service.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/projectJobServiceFastAPI$Start_app.coverage" NAME="Start app Coverage Results" MODIFIED="1729493311541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/projectJobServiceFastAPI$.coverage" NAME=" Coverage Results" MODIFIED="1729460762069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/candidates" />
+  </component>
+</project>
